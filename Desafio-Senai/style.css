@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;       
+    padding: 10px 20px;   
+    background-color: #333; 
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+header img{
+    height: 17%;
+    width: 17%;
+    transition: 0.8s;
+}
+
+header img:hover{
+    opacity: 0.8;
+}
+
+nav ul {
+    display: flex;     
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+    gap: 20px; 
+    font-family: 'Oswald', sans-serif;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;  
+}
+
+.topbar2, .topbar{
+    transition: 0.8s;
+}
+
+nav .topbar:hover {
+    color: rgb(212, 9, 9);  
+}
+
+.topbar2{
+    background-color: red;
+    width: 22,8%;
+    border-radius: 20%;
+    text-align: center;
+}
+.topbar2:hover{
+    color: gray;
+}
+
+main .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 80%;
+    transform: translateY(-10%);
+}
+
+.aprendizado{
+    position: absolute;
+    color: black;
+    background-color: white;
+    top: 50%;
+    left: 10%;
+    border-radius: 12px;
+    opacity: 0.8;
+    width: 20%;
+    height: 30%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.aprendizado h2:hover{
+    opacity: 0.7;
+}
+
+.h2vermelho{
+    color: red;
+}
+
+.h2vermelho:hover{
+    color: rgb(122, 0, 0);
+}
+
+.acessar{
+    text-align: center;  
+    color: white;
+    background-color: red;
+    border-radius: 12px;
+    width: 50%; 
+    height: auto;
+    margin: 0 auto;
+}
+
+.acessar:hover{
+    background-color: rgb(174, 0, 0);
+}
+
+.whatts{
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    width: 6%;
+    height: 6%;
+    transition: 0.8s;
+    z-index: 2;
+}
+
+.whatts:hover{
+    transform: scale(1.2);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    gap: 20px;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section img{
+    width: 60%;
+    height: 60%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+    transition: 0.8s;
+}
+.titulo{
+        transition: 0.8s;
+}
+
+section .titulo:hover:hover{
+    letter-spacing: 5px;
+}
+
+section img:hover{
+    transform: scale(1.08);
+}
+
+footer{
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+    padding: 10px;   
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+footer p{
+    transform: translateX(-10%);
+}
+
+footer img{
+    height: 17%;
+    width: 17%;
+}
+
+@media (max-width: 480px) {
+    p {
+        width: 90%; 
+        font-size: 14px; 
+        padding: 8px;
+    }
+    .vermelho {
+        width: 100%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main .banner {
+    position: relative;
+}
+
+   .aprendizado{
+    position: absolute;
+    color: black;
+    border-radius: 12px;
+    opacity: 0.8;
+    width: 20%;
+    height: 30%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+    .acessar {
+        width: 90%;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    
+
+    .whatts {
+        top: auto;
+        bottom: 5%; 
+        left: auto;
+        right: 5%;    
+        width: 12%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    p {
+        width: 70%;       
+        font-size: 16px;
+        padding: 10px;
+    }
+    .vermelho {
+        width: 80%;
+        height: 90px;
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .aprendizado {
+        top: 45%;
+        left: 8%;
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .acessar {
+        width: 60%;
+        font-size: 16px;
+        padding: 12px 0;
+    }
+
+    .whatts {
+        top: auto;
+        bottom: 5%;
+        right: 5%;
+        width: 8%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        width: 80%;       
+        font-size: 18px;
+        padding: 10px;
+    }
+    .vermelho {
+        width: 800px;
+        height: 100px;
+        margin-top: 0;
+    }
+    h1 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .aprendizado {
+        top: 50%;
+        left: 10%;
+        width: 20%;
+        height: 30%;
+        padding: 1%;
+        font-size: 16px;
+    }
+
+    .acessar {
+        width: 50%;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .whatts {
+        top: 90%;
+        left: 90%;
+        width: 6%;
+        height: auto;
+    }
+}

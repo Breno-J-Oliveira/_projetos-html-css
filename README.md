@@ -336,28 +336,6 @@ Cada subpasta contém:
 
 ---
 
-## Progressão no Repositório
-
-```
-_estudos-logica/          _estudos-javascript/      _estudos-php/
-     │                          │                        │
-     │  Raciocínio lógico       │  Sintaxe + DOM         │  Backend + MySQL
-     │  Algoritmos              │  Eventos + CRUD        │  Sessões + Auth
-     │  Git + POO               │  localStorage          │  Formulários
-     │                          │                        │
-     └──────────────────────────┴────────────────────────┘
-                     │
-                     ▼
-        ┌────────────────────────────────────┐
-        │  _projetos-html-css/ ← ESTÁS AQUI │
-        │  (Sites, Jogos, Design, Multimédia)│
-        └────────────────────────────────────┘
-                     │
-                     ▼
-               NexusAuth        (Microsserviço completo)
-            (NestJS + PostgreSQL + Redis + Docker)
-```
-
 > O HTML/CSS é a face visível de tudo. Cada projecto aqui aprendeu-se a criar interfaces que o utilizador vê e com as quais interage — a base de qualquer aplicação web.
 
 ---

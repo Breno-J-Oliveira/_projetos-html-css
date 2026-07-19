@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novembro Blue</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-black text-white position-relative">
+
+  <img src="https://i.pinimg.com/736x/b0/9c/0e/b09c0ea05853331362add39fed2e6f51.jpg" 
+       class="position-fixed top-0 start-0 w-100 vh-100 object-fit-cover opacity-50" 
+       alt="Fundo">
+
+  <div class="position-relative z-10">
+
+    <header class="bg-primary bg-opacity-50 p-3 rounded mb-4">
+      <hr class="border-light">
+      <h1 class="text-center fw-bold">Novembro Blue</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0 justify-content-center">
+          <li class="breadcrumb-item"><a href="#novembro-blue" class="text-white text-decoration-none">Casa</a></li>
+          <li class="breadcrumb-item"><a href="#cuidados" class="text-white text-decoration-none">Informações</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Contatos</li>
+        </ol>
+      </nav>
+      <hr class="border-light">
+    </header>
+
+    <div class="container p-4">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="bg-dark bg-opacity-75 p-4 rounded h-100 text-white">
+            <h2>Sobre o Novembro Blue</h2>
+            <p>Novembro Azul é aquele mês pra lembrar os mano de cuidar da saúde, principalmente com o exame de próstata. Não é tabu, é cuidado! Fazer o exame cedo é garantir mais tempo de vida e menos preocupação.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-dark bg-opacity-75 p-3 rounded">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner ratio ratio-16x9">
+                <div class="carousel-item active">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghUHHJ4zta9rKlZOO1X5kw9Mh_r9iaULSvg&s" class="d-block w-100 h-100 object-fit-cover rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw80Wmn9EjyVYpmxb2WDxqYpRWFMRWScJ_gg&s" class="d-block w-100 h-100 object-fit-cover rounded" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://crmvsp.gov.br/wp-content/uploads/2020/12/11.11.2019_Novembro_azul.jpg" class="d-block w-100 h-100 object-fit-cover rounded" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="container p-4 bg-primary bg-opacity-25 rounded">
+        <h2 class="mb-4 text-center">Possíveis Cuidados</h2>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="card bg-black bg-opacity-75 text-white border-primary h-100">
+              <div class="card-body">
+                <h5 class="card-title">Exame Preventivo</h5>
+                <p class="card-text">O PSA é o exame que detecta o câncer de próstata cedo. Não vacila!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-black bg-opacity-75 text-white border-primary h-100">
+              <div class="card-body">
+                <h5 class="card-title">Alimentação Saudável</h5>
+                <p class="card-text">Comer bem ajuda o corpo a reagir melhor e prevenir doenças.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-black bg-opacity-75 text-white border-primary h-100">
+              <div class="card-body">
+                <h5 class="card-title">Exercícios Físicos</h5>
+                <p class="card-text">Se mexe, véi! O corpo ativo é um corpo forte e protegido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 bg-dark bg-opacity-75 rounded p-4">
+        <h2 class="mb-4 text-center">Principais Dúvidas</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                O que é o Novembro Azul?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                É uma campanha pra lembrar os homens da importância de cuidar da saúde e fazer o exame de próstata.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                Quem deve fazer exames preventivos?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Homens a partir dos 45 anos, ou antes se tiver caso na família.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                Quais exames são recomendados?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                O exame de sangue (PSA) e o toque retal são os principais.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <div class="row align-items-center bg-primary bg-opacity-75 p-4 rounded text-white">
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GVL_mhrltSIr-G8fW9lwj4FNuO2IbHWWNA&sp" class="img-fluid rounded shadow" alt="Davi Brito">
+          </div>
+          <div class="col-md-8">
+            <h5 class="mb-3">Depoimento do Davi Brito</h5>
+            <p>Fala, galera! Aqui é o Davi Brito   
+            Eu fui lá e fiz meu exame de próstata, mano! É isso mesmo, sem caô!  
+            Cuida da tua saúde, se conscientiza, e faz o exame — é rapidinho e pode salvar tua vida!  
+            Então bora parar de frescura e se cuidar, fechou? </p>
+            <a href="#" class="btn btn-dark btn-lg">Marcar Exame Agora</a>
+            <p class="text-end fst-italic mt-2">— Davi Brito</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-primary bg-opacity-75 text-white text-center p-3 mt-4 rounded">
+      &copy; 2025 Novembro Blue — feito com consciência e estilo 
+    </footer>
+
+  </div>
+</body>
+</html>
